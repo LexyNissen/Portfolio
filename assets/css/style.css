@@ -10,8 +10,10 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Inconsolata", monospace;
-  color: #0d1e2d;
+  /* font-family: "Inconsolata", monospace; */
+  font-family: "Raleway", sans-serif;
+  /* color: #0d1e2d; */
+  color: #a7b697;
 }
 
 a {
@@ -336,7 +338,8 @@ h6,
 --------------------------------------------------------------*/
 /* Custom Navmenu */
 .custom-navmenu {
-  background: #0d1e2d;
+  background: #a7b697
+  /* #0d1e2d; */
 }
 
 .custom-navmenu .custom-menu,
@@ -487,7 +490,8 @@ h6,
   background: #f8f9fa;
   position: relative;
   text-align: center;
-  color: #0d1e2d;
+  color: #a7b697
+  /* #0d1e2d; */
 }
 
 .social a span {
