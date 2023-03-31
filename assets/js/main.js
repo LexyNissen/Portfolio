@@ -5,6 +5,7 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
+
 (function() {
   "use strict";
 
@@ -35,7 +36,7 @@
   }
 
   /**
-   * Easy on scroll event listener 
+   * Easy on scroll event listener
    */
   const onscroll = (el, listener) => {
     el.addEventListener('scroll', listener)
@@ -110,3 +111,16 @@
   });
 
 })()
+$(document).ready(function(){
+  $('[data-filter="Supp"]').hide()
+  $(".btn2").click(function(){
+    $('[data-filter="Supp"]').show();
+  });
+});
+// $(document).ready(
+//     function () {
+//       $('[data-filter="Supp"]').hide()
+//
+//
+//     }
+// );

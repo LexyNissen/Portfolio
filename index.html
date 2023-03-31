@@ -35,7 +35,8 @@
 </head>
 
 <body>
-
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script src="js/scripts.js"></script>
   <!-- ======= Navbar ======= -->
   <!-- <div class="collapse navbar-collapse custom-navmenu" id="main-navbar">
     <div class="container py-2 py-md-5">
@@ -85,27 +86,31 @@
             <h2>Hey, I'm Lexy</h2>
             <p class="mb-0">Budding Design Professional | Bachelor of Science Architecture</p>
           </div>
-          <div class="col-md-12 col-lg-6 text-start text-lg-end" data-aos="fade-up" data-aos-delay="100">
+
+          <div class="col-md-12 col-lg-6 text-start text-lg-end" data-aos="fade-up" data-aos-delay="80">
             <div id="filters" class="filters">
-              <a href="#" data-filter="*" class="active">All</a>
+              <a href="#" data-filter=".all"  class="active">All</a>
               <a href="#" data-filter=".UG">Undergraduate Projects</a>
               <a href="#" data-filter=".PP">Personal Projects</a>
-              <a href="#" data-filter=".Sketch">Sketchwork</a>
+              <a href="#" data-filter=".Supp" class="btn2">Supplemental</a>
             </div>
           </div>
+          <!-- <div class="col-md-12 col-lg-1 text-start text-lg-end" data-aos="fade-up" data-aos-delay="80">
+            <a href="supplemental.html" class="active">Supplemental</a>
+          </div> -->
         </div>
         <div id="portfolio-grid" class="row no-gutter" data-aos="fade-up" data-aos-delay="200">
-          <div class="item UG col-sm-6 col-md-4 col-lg-4 mb-4">
+          <div class="item UG all col-sm-6 col-md-4 col-lg-4 mb-4">
             <a href="Live Work Dwell.html" class="item-wrap fancybox">
               <div class="work-info">
                 <h3>Live Work Dwell</h3>
                 <span>See Project</span>
               </div>
-              <img class="img-fluid" src="assets/img/LWD 1.png">
+              <img class="img-fluid" src="assets/img/LWD 100.png">
             </a>
           </div>
 
-          <div class="item UG col-sm-6 col-md-4 col-lg-4 mb-4">
+          <div class="item UG all col-sm-6 col-md-4 col-lg-4 mb-4">
             <a href="Cardinal.html" class="item-wrap fancybox">
               <div class="work-info">
                 <h3>Cardinal Gallery</h3>
@@ -115,7 +120,17 @@
             </a>
           </div>
 
-          <div class="item PP col-sm-6 col-md-4 col-lg-4 mb-4">
+          <div class="item UG all col-sm-6 col-md-4 col-lg-4 mb-4">
+            <a href="ShadowMountain.html" class="item-wrap fancybox">
+              <div class="work-info">
+                <h3>Shadow Mountain Boathouse</h3>
+                <span>See Project</span>
+              </div>
+              <img class="img-fluid" src="assets/img/BOAT 1.png">
+            </a>
+          </div>
+
+          <div class="item PP all col-sm-6 col-md-4 col-lg-4 mb-4">
             <a href="Miniature.html" class="item-wrap fancybox">
               <div class="work-info">
                 <h3>Miniature Programs</h3>
@@ -125,7 +140,7 @@
             </a>
           </div>
 
-          <div class="item * col-sm-6 col-md-4 col-lg-4 mb-4">
+          <div class="item all col-sm-6 col-md-4 col-lg-4 mb-4">
             <a href="Dragonfly.html" class="item-wrap fancybox">
               <div class="work-info">
                 <h3>Dragonfly Pavilion</h3>
@@ -135,17 +150,7 @@
             </a>
           </div>
 
-            <div class="item UG col-sm-6 col-md-4 col-lg-4 mb-4">
-              <a href="ShadowMountain.html" class="item-wrap fancybox">
-                <div class="work-info">
-                  <h3>Shadow Mountain Boathouse</h3>
-                  <span>See Project</span>
-                </div>
-                <img class="img-fluid" src="assets/img/Image14.png">
-              </a>
-            </div>
-
-          <div class="item * col-sm-6 col-md-4 col-lg-4 mb-4">
+          <div class="item all col-sm-6 col-md-4 col-lg-4 mb-4">
             <a href="Live Work Dwell.html" class="item-wrap fancybox">
               <div class="work-info">
                 <h3>Live Work Dwell</h3>
@@ -155,7 +160,7 @@
             </a>
           </div>
 
-          <div class="item * col-sm-6 col-md-4 col-lg-4 mb-4">
+          <div class="item all col-sm-6 col-md-4 col-lg-4 mb-4">
             <a href="Miniature.html" class="item-wrap fancybox">
               <div class="work-info">
                 <h3>Miniature Programs</h3>
@@ -165,7 +170,7 @@
             </a>
           </div>
 
-          <div class="item UG col-sm-6 col-md-4 col-lg-4 mb-4">
+          <div class="item UG all col-sm-6 col-md-4 col-lg-4 mb-4">
             <a href="Dragonfly.html" class="item-wrap fancybox">
               <div class="work-info">
                 <h3>Dragonfly Pavilion</h3>
@@ -175,7 +180,7 @@
             </a>
           </div>
 
-          <div class="item * col-sm-6 col-md-4 col-lg-4 mb-4">
+          <div class="item all col-sm-6 col-md-4 col-lg-4 mb-4">
             <a href="Cardinal.html" class="item-wrap fancybox">
               <div class="work-info">
                 <h3>Cardinal Gallery</h3>
@@ -185,16 +190,16 @@
             </a>
           </div>
 
-          <div class="item * col-sm-6 col-md-4 col-lg-4 mb-4">
+          <div class="item all col-sm-6 col-md-4 col-lg-4 mb-4">
             <a href="ShadowMountain.html" class="item-wrap fancybox">
               <div class="work-info">
                 <h3>Shadow Mountain Boathouse</h3>
                 <span>See Project</span>
               </div>
-              <img class="img-fluid" src="assets/img/Image15.png">
+              <img class="img-fluid" src="assets/img/BOAT 2.png">
             </a>
           </div>
-          <div class="item UG col-sm-6 col-md-4 col-lg-4 mb-4">
+          <div class="item Supp col-sm-6 col-md-4 col-lg-4 mb-4" data-filter="Supp">
             <a href="Clasical.html" class="item-wrap fancybox">
               <div class="work-info">
                 <h3>Classical Architecture Study</h3>
@@ -204,7 +209,7 @@
             </a>
           </div>
 
-          <div class="item UG col-sm-6 col-md-4 col-lg-4 mb-4">
+          <div class="item Supp col-sm-6 col-md-4 col-lg-4 mb-4" data-filter="Supp" >
             <a href="Composition.html" class="item-wrap fancybox">
               <div class="work-info">
                 <h3>Composition Stories</h3>
@@ -214,13 +219,13 @@
             </a>
           </div>
 <!-- Sketchwork is here -->
-                    <div class="item Sketch col-sm-6 col-md-4 col-lg-4 mb-4">
+                    <div class="item Supp col-sm-6 col-md-4 col-lg-4 mb-4" data-filter="Supp">
                       <a href="Sketchwork.html" class="item-wrap fancybox">
                         <div class="work-info">
                           <h3>Sketchwork</h3>
                           <span>View Drawings</span>
                         </div>
-                        <img class="img-fluid" src="assets/img/sketch-2.png">
+                        <img class="img-fluid" src="assets/img/sketch 1-01.png">
                       </a>
                     </div>
   <!-- sketchwork is here -->
@@ -236,12 +241,12 @@
     <div class="row mb-5 align-items-end">
       <div class="col-md-10" data-aos="fade-up">
         <h2 id="Contact">About Me</h2>
-        <p class="mb-0">Hey, I'm Lexy! An artist at heart, I grew up in Boulder County Colorado and graduated with a
-          Bachelor of Science in Architecture from the University Of Colorado Denver in December of 2022.
-          I've had an interest in Architecture since childhood and during my time at university I was able to expand my
-          horizons and study various forms of Architecture and Design. Though I am excited to work in a range of specialties
-          to expand my skills and knowledge, I have a major interest in both Classical Architecture and
-          victorian architectural styles as well as green Architecture.
+        <p class="mb-0">Hey, I'm Lexy! An artist at heart, I grew up in Boulder County Colorado and graduated with a Bachelor of
+                        Science in Architecture from the University Of Colorado Denver. I've had an interest in Architecture since
+                        childhood and during my time at university, I was able to broaden my horizons and study various forms of
+                        Architecture and Design. Though I am excited to work in a range of specialties to diversify my knowledge
+                        and skills, I have a major interest in green architecture and sustainable building practices. I am also
+                        captivated by gothic and victorian styles as well as classical studies.
         </p>
       </div>
 
