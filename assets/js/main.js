@@ -103,24 +103,25 @@
    */
   window.addEventListener('load', () => {
     AOS.init({
-      duration: 1000,
+      duration: 800,
       easing: 'ease-in-out',
       once: true,
       mirror: false
     })
   });
 
-})()
-$(document).ready(function(){
-  $('[data-filter="Supp"]').hide()
-  $(".btn2").click(function(){
-    $('[data-filter="Supp"]').show();
+  $(document).ready(function(){
+    $('[data-filter="Supp"]').hide()
+    $(".btn2").click(function(){
+      $('[data-filter="Supp"]').show();
+    });
   });
-});
-// $(document).ready(
-//     function () {
-//       $('[data-filter="Supp"]').hide()
-//
-//
-//     }
-// );
+
+})()
+
+// $(document).ready(function(){
+//   $('[data-filter="Supp"]').hide()
+//   $(".btn2").click(function(){
+//     $('[data-filter="Supp"]').show();
+//   });
+// });
