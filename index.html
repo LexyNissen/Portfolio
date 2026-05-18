@@ -4,471 +4,250 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
   <title>Lexy Nissen - Portfolio</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.ico" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="assets\img\gallery\1. favicon.ico" rel="icon">
+  <link href="assets\img\gallery\1. favicon.ico" rel="apple-touch-icon">
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=https://fonts.googleapis.com/css?family=Inconsolata:400,500,600,700|Raleway:400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Cardo:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
 
   <!-- =======================================================
-  * Template Name: MyPortfolio
-  * Updated: Mar 09 2023 with Bootstrap v5.2.3
-  * Template URL: https://bootstrapmade.com/myportfolio-bootstrap-portfolio-website-template/
+  * Template Name: PhotoFolio
+  * Template URL: https://bootstrapmade.com/photofolio-bootstrap-photography-website-template/
+  * Updated: Aug 07 2024 with Bootstrap v5.3.3
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
 </head>
 
-<body>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-  <script src="js/scripts.js"></script>
-  <!-- ======= Navbar ======= -->
-  <!-- <div class="collapse navbar-collapse custom-navmenu" id="main-navbar">
-    <div class="container py-2 py-md-5">
-      <div class="row align-items-start">
-        <div class="col-md-2">
-          <ul class="custom-menu">
-            <li class="active"><a href="index.html">Home</a></li>
-            <li><a href="about.html">About Me</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="works.html">Works</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
-        </div>
-        <div class="col-md-6 d-none d-md-block  mr-auto">
-          <div class="tweet d-flex">
-            <span class="bi bi-twitter text-white mt-2 mr-3"></span>
-            <div>-->
-              <!-- <p><em>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam necessitatibus incidunt ut officiis explicabo inventore. <br> <a href="#">t.co/v82jsk</a></em></p> -->
-            <!-- </div>
-          </div>
-        </div>
-        <div class="col-md-4 d-none d-md-block">
-          <h3>Hire Me</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam necessitatibus incidunt ut officiisexplicabo inventore. <br> <a href="#">myemail@gmail.com</a></p>
-        </div>
-      </div>
+<body class="index-page">
 
-    </div>
-  </div> -->
+  <header id="header" class="header d-flex align-items-center sticky-top">
+    <div class="container-fluid position-relative d-flex align-items-center justify-content-between">
 
-  <!-- <nav class="navbar navbar-light custom-navbar">
-    <div class="container">
-      <a class="navbar-brand" href="index.html">MyPortfolio.</a>
-      <a href="#" class="burger" data-bs-toggle="collapse" data-bs-target="#main-navbar">
-        <span></span>
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.webp" alt=""> -->
+        <!-- <i class="bi bi-camera"></i> -->
+        <h1 class="sitename">Lexy Nissen - Portfolio</h1>
       </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html" class="active">Home<br></a></li>
+          <!-- <li><a href="about.html">About</a></li> -->
+          <li><a href="Undergrad.html">Undergraduate Projects</a></li>
+          <li><a href="Independent Projects.html">Independent Projects</a></li>
+          <li><a href="Supplemental.html">Supplemental Work</a></li>
+              <!-- <li><a href="gallery.html">Animals</a></li>
+              <li><a href="gallery.html">Sports</a></li>
+              <li><a href="gallery.html">Travel</a></li> -->
+              <!-- <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                  <li><a href="#">Deep Dropdown 1</a></li>
+                  <li><a href="#">Deep Dropdown 2</a></li>
+                  <li><a href="#">Deep Dropdown 3</a></li>
+                  <li><a href="#">Deep Dropdown 4</a></li>
+                  <li><a href="#">Deep Dropdown 5</a></li>
+                </ul> -->
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <div class="header-social-links">
+        <!-- <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
+        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a> -->
+        <a href="https://www.linkedin.com/in/nissen-lexy/" class="linkedin"><i class="bi bi-linkedin"></i></a>
+      </div>
+
     </div>
-  </nav> -->
+  </header>
 
-  <main id="main">
+  <main class="main">
 
-    <!-- ======= Works Section ======= -->
-    <section class="section site-portfolio">
+    <!-- Hero Section -->
+    <section id="hero" class="hero section">
+
       <div class="container">
-        <div class="row mb-5 align-items-center">
-          <div class="col-md-12 col-lg-6 mb-4 mb-lg-0" data-aos="fade-up">
-            <h2>Hey, I'm Lexy</h2>
-            <p class="mb-0">Budding Design Professional | Bachelor of Science Architecture</p>
+        <div class="row justify-content-center">
+          <div class="col-lg-6 text-center" data-aos="fade-up" data-aos-delay="15">
+            <h2><span>I'm </span><span class="underlight">Lexy,</span> a Design Professional</span></h2>
+            <p>An artist at heart, I'm from Boulder, Colorado with a Bachelor of Science in Architecture from the University Of Colorado Denver.
+              I am excited to work in a range of specialties to diversify my knowledge and skills, I have a major interest in green architecture and sustainable building practices, as well as 3D environment art and design. I frequently draw inspiration from gothic and victorian styles, and classical studies.</p>
+            <!-- <a href="contact.html" class="btn-get-started">Available for Hire<br></a> -->
           </div>
+        </div>
+      </div>
 
-          <div class="col-md-12 col-lg-6 text-start text-lg-end" data-aos="fade-up" data-aos-delay="80">
-            <div id="filters" class="filters">
-              <a href="#" data-filter=".all"  class="active">All</a>
-              <a href="#" data-filter=".UG">Undergraduate Projects</a>
-              <a href="#" data-filter=".PP">Personal Projects</a>
-              <a href="#" data-filter=".Supp" class="btn2">Supplemental</a>
+    </section><!-- /Hero Section -->
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery section">
+
+      <div class="container-fluid" data-aos="fade-up" data-aos-delay="15">
+
+        <div class="row gy-4 justify-content-center">
+
+          <div class="col-xl-3 col-lg-4 col-md-6">
+            <div class="gallery-item h-100">
+              <img src="assets\img\gallery\live-work-dwell\lwd 1920-1080.webp" class="img-fluid" alt="">
+              <div class="gallery-links d-flex align-items-center justify-content-center">
+                <!-- <a href="assets/img/gallery/gallery-1.webp" title="Gallery 1" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a> -->
+                <a href="live-work-dwell.html" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
             </div>
-          </div>
-          <!-- <div class="col-md-12 col-lg-1 text-start text-lg-end" data-aos="fade-up" data-aos-delay="80">
-            <a href="supplemental.html" class="active">Supplemental</a>
-          </div> -->
-        </div>
-        <div id="portfolio-grid" class="row no-gutter" data-aos="fade-up" data-aos-delay="200">
-          <div class="item UG all col-sm-6 col-md-4 col-lg-4 mb-4">
-            <a href="Live Work Dwell.html" class="item-wrap fancybox">
-              <div class="work-info">
-                <h3>Live Work Dwell</h3>
-                <span>See Project</span>
+          </div><!-- End Gallery Item -->
+
+          <div class="col-xl-3 col-lg-4 col-md-6">
+            <div class="gallery-item h-100">
+              <img src="assets\img\gallery\cottage\Image4.webp" class="img-fluid" alt="">
+              <div class="gallery-links d-flex align-items-center justify-content-center">
+                <!-- <a href="assets/img/gallery/gallery-2.webp" title="Gallery 2" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a> -->
+                <a href="Cottage-House.html" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
-              <img class="img-fluid" src="assets/img/LWD 100.webp">
-            </a>
-          </div>
+            </div>
+          </div> <!-- End Gallery Item -->
 
-          <div class="item PP all col-sm-6 col-md-4 col-lg-4 mb-4">
-            <a href="Cottage.html" class="item-wrap fancybox">
-                 <div class="work-info">
-                   <h3>Cottage House</h3>
-                   <span>See Project</span>
-                 </div>
-               <img class="img-fluid" src="assets/img/Principle Image.jpg">
-            </a>
-          </div>
-
-
-          <div class="item UG all col-sm-6 col-md-4 col-lg-4 mb-4">
-            <a href="Cardinal.html" class="item-wrap fancybox">
-              <div class="work-info">
-                <h3>Cardinal Gallery</h3>
-                <span>See Project</span>
+          <div class="col-xl-3 col-lg-4 col-md-6">
+            <div class="gallery-item h-100">
+              <img src="assets\img\gallery\boathouse\BOAT 1.webp" class="img-fluid" alt="">
+              <div class="gallery-links d-flex align-items-center justify-content-center">
+                <!-- <a href="assets/img/gallery/gallery-3.webp" title="Gallery 3" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a> -->
+                <a href="Boathouse.html" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
-              <img class="img-fluid" src="assets/img/front entrance.png">
-            </a>
-          </div>
+            </div>
+          </div><!-- End Gallery Item -->
 
-          <div class="item UG all col-sm-6 col-md-4 col-lg-4 mb-4">
-            <a href="ShadowMountain.html" class="item-wrap fancybox">
-              <div class="work-info">
-                <h3>Shadow Mountain Boathouse</h3>
-                <span>See Project</span>
+          <div class="col-xl-3 col-lg-4 col-md-6">
+            <div class="gallery-item h-100">
+              <img src="assets\img\gallery\fantasy\Principle Image.webp" class="img-fluid" alt="">
+              <div class="gallery-links d-flex align-items-center justify-content-center">
+                <!-- <a href="assets/img/gallery/gallery-4.webp" title="Gallery 4" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a> -->
+                <a href="Fantasy-Facades.html" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
-              <img class="img-fluid" src="assets/img/BOAT 1.webp">
-            </a>
-          </div>
+            </div>
+          </div><!-- End Gallery Item -->
 
-          <div class="item PP all col-sm-6 col-md-4 col-lg-4 mb-4">
-            <a href="Miniature.html" class="item-wrap fancybox">
-              <div class="work-info">
-                <h3>Miniature Programs</h3>
-                <span>See Project</span>
+          <div class="col-xl-3 col-lg-4 col-md-6">
+            <div class="gallery-item h-100">
+              <img src="assets\img\gallery\dragonfly\bug 1920=1080.webp" class="img-fluid" alt="">
+              <div class="gallery-links d-flex align-items-center justify-content-center">
+                <!-- <a href="assets/img/gallery/gallery-5.webp" title="Gallery 5" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a> -->
+                <a href="Pavillion.html" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
-              <img class="img-fluid" src="assets/img/tiny2.png">
-            </a>
-          </div>
+            </div>
+          </div><!-- End Gallery Item -->
 
-          <div class="item UG all col-sm-6 col-md-4 col-lg-4 mb-4">
-            <a href="Dragonfly.html" class="item-wrap fancybox">
-              <div class="work-info">
-                <h3>Dragonfly Pavilion</h3>
-                <span>See Project</span>
+          <div class="col-xl-3 col-lg-4 col-md-6">
+            <div class="gallery-item h-100">
+              <img src="assets\img\gallery\tiny house\tiny-1.webp" class="img-fluid" alt="">
+              <div class="gallery-links d-flex align-items-center justify-content-center">
+                <!-- <a href="assets/img/gallery/gallery-6.webp" title="Gallery 6" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a> -->
+                <a href="Tiny-House.html" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
-              <img class="img-fluid" src="assets/img/Dragonfly-1.webp">
-            </a>
-          </div>
+            </div>
+          </div><!-- End Gallery Item -->
 
-          <div class="item all col-sm-6 col-md-4 col-lg-4 mb-4">
-            <a href="Live Work Dwell.html" class="item-wrap fancybox">
-              <div class="work-info">
-                <h3>Live Work Dwell</h3>
-                <span>See Project</span>
+          <div class="col-xl-3 col-lg-4 col-md-6">
+            <div class="gallery-item h-100">
+              <img src="assets\img\gallery\classical\classical 1920-1080.webp" class="img-fluid" alt="">
+              <div class="gallery-links d-flex align-items-center justify-content-center">
+                <!-- <a href="assets/img/gallery/gallery-7.webp" title="Gallery 7" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a> -->
+                <a href="Classical Studies.html" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
-              <img class="img-fluid" src="assets/img/carousel-8.png">
-            </a>
-          </div>
+            </div>
+          </div><!-- End Gallery Item -->
 
-          <div class="item all col-sm-6 col-md-4 col-lg-4 mb-4">
-            <a href="Cottage.html" class="item-wrap fancybox">
-              <div class="work-info">
-                <h3>Cottage House</h3>
-                <span>See Project</span>
+          <div class="col-xl-3 col-lg-4 col-md-6">
+            <div class="gallery-item h-100">
+              <img src="assets\img\gallery\composition music\music 1920-1080.webp" class="img-fluid" alt="">
+              <div class="gallery-links d-flex align-items-center justify-content-center">
+                <!-- <a href="assets/img/gallery/gallery-8-2.webp" title="Gallery 8" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a> -->
+                <a href="Composition Stories.html" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
-              <img class="img-fluid" src="assets/img/Front.jpg">
-            </a>
-          </div>
-
-          <div class="item all col-sm-6 col-md-4 col-lg-4 mb-4">
-            <a href="Miniature.html" class="item-wrap fancybox">
-              <div class="work-info">
-                <h3>Miniature Programs</h3>
-                <span>See Project</span>
-              </div>
-              <img class="img-fluid" src="assets/img/tiny-1.png">
-            </a>
-          </div>
-
-
-
-          <div class="item Supp col-sm-6 col-md-4 col-lg-4 mb-4" data-filter="Supp">
-            <a href="Clasical.html" class="item-wrap fancybox">
-              <div class="work-info">
-                <h3>Classical Architecture Study</h3>
-                <span>View Drawings</span>
-              </div>
-              <img class="img-fluid" src="assets/img/classical main cover.png">
-            </a>
-          </div>
-
-          <div class="item Supp col-sm-6 col-md-4 col-lg-4 mb-4" data-filter="Supp" >
-            <a href="Composition.html" class="item-wrap fancybox">
-              <div class="work-info">
-                <h3>Composition Stories</h3>
-                <span>See Project</span>
-              </div>
-              <img class="img-fluid" src="assets/img/composition for portfolio-01.png">
-            </a>
-          </div>
-<!-- Sketchwork is here -->
-                    <!-- <div class="item Supp col-sm-6 col-md-4 col-lg-4 mb-4" data-filter="Supp">
-                      <a href="Sketchwork.html" class="item-wrap fancybox">
-                        <div class="work-info">
-                          <h3>Sketchwork</h3>
-                          <span>View Drawings</span>
-                        </div>
-                        <img class="img-fluid" src="assets/img/sketch 1-01.png">
-                      </a>
-                    </div> -->
-  <!-- sketchwork is here -->
+            </div>
+          </div><!-- End Gallery Item -->
 
         </div>
-      </div>
-    </section><!-- End  Works Section -->
 
-<!-- about me -->
-<section class="section pb-5">
-  <div class="container">
-
-    <div class="row mb-5 align-items-end">
-      <div class="col-md-10" data-aos="fade-up">
-        <h2 id="Contact">About Me</h2>
-        <p class="mb-0">Hey, I'm Lexy! An artist at heart, I grew up in Boulder County Colorado and graduated with a Bachelor of
-                        Science in Architecture from the University Of Colorado Denver. I've had an interest in Architecture since
-                        childhood and during my time at university, I was able to broaden my horizons and study various forms of
-                        Architecture and Design. Though I am excited to work in a range of specialties to diversify my knowledge
-                        and skills, I have a major interest in green architecture and sustainable building practices. I am also
-                        captivated by gothic and victorian styles as well as classical studies.
-        </p>
       </div>
 
-    </div>
+    </section><!-- /Gallery Section -->
 
+    <!-- Contact Section -->
+    <section id="hero" class="hero section">
 
-    </div>
-
-  </div>
-
-<!-- </section> -->
-
-
-<!-- End about me -->
-    <!-- ======= Contact Section ======= -->
-    <!-- <section class="section pb-5"> -->
       <div class="container">
-
-        <div class="row mb-5 align-items-end">
-          <div class="col-md-6" data-aos="fade-up">
-            <h2 id="Contact">Contact</h2>
-            <p class="mb-0">Please reach out to me at <a onclick="copyText()"><u>Lexy.nissen@outlook.com</u></a> to get in contact!
-            </p>
-          </div>
-
-        </div>
-<script>function copyText(){navigator.clipboard.writeText("Lexy.nissen@outlook.com")}</script>
-          <!-- <div class="row">
-            <div class="col-md-6 mb-5 mb-md-0" data-aos="fade-up">
-
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-
-              <div class="row gy-3">
-                <div class="col-md-6 form-group">
-                  <label for="name">Name</label>
-                  <input type="text" name="name" class="form-control" id="name" required>
-                </div>
-                <div class="col-md-6 form-group">
-                  <label for="name">Email</label>
-                  <input type="email" class="form-control" name="email" id="email" required>
-                </div>
-                <div class="col-md-12 form-group">
-                  <label for="name">Subject</label>
-                  <input type="text" class="form-control" name="subject" id="subject" required>
-                </div>
-                <div class="col-md-12 form-group">
-                  <label for="name">Message</label>
-                  <textarea class="form-control" name="message" cols="30" rows="10" required></textarea>
-                </div>
-
-                <div class="col-md-12 my-3">
-                  <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">Your message has been sent. Thank you!</div>
-                </div>
-
-                <div class="col-md-6 mt-0 form-group">
-                  <input type="submit" class="readmore d-block w-100" value="Send Message">
-                </div>
-              </div>
-
-            </form>
-
-          </div> -->
-
-          <!-- <div class="col-md-4 ml-auto order-2" data-aos="fade-up">
-            <ul class="list-unstyled">
-              <li class="mb-3">
-                <strong class="d-block mb-1">Phone</strong>
-                <span>+1 232 3235 324</span>
-              </li>
-              <li class="mb-3">
-                <strong class="d-block mb-1">Email</strong>
-                <span>youremail@domain.com</span>
-              </li>
-            </ul>
-          </div> -->
-
-        </div>
-
-      </div>
-
-    </section><!-- End Contact Section -->
-
-    <!-- ======= Services Section ======= -->
-    <!-- <section class="section services">
-      <div class="container">
-        <div class="row justify-content-center text-center mb-4">
-          <div class="col-5">
-            <h3 class="h3 heading">My Services</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit explicabo inventore.</p>
-          </div>
-        </div>
-        <div class="row">
-
-          <div class="col-12 col-sm-6 col-md-6 col-lg-3">
-            <i class="bi bi-card-checklist"></i>
-            <h4 class="h4 mb-2">Web Design</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit explicabo inventore.</p>
-            <ul class="list-unstyled list-line">
-              <li>Lorem ipsum dolor sit amet consectetur adipisicing</li>
-              <li>Non pariatur nisi</li>
-              <li>Magnam soluta quod</li>
-              <li>Lorem ipsum dolor</li>
-              <li>Cumque quae aliquam</li>
-            </ul>
-          </div>
-          <div class="col-12 col-sm-6 col-md-6 col-lg-3">
-            <i class="bi bi-binoculars"></i>
-            <h4 class="h4 mb-2">Mobile Applications</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit explicabo inventore.</p>
-            <ul class="list-unstyled list-line">
-              <li>Lorem ipsum dolor sit amet consectetur adipisicing</li>
-              <li>Non pariatur nisi</li>
-              <li>Magnam soluta quod</li>
-              <li>Lorem ipsum dolor</li>
-              <li>Cumque quae aliquam</li>
-            </ul>
-          </div>
-          <div class="col-12 col-sm-6 col-md-6 col-lg-3">
-            <i class="bi bi-brightness-high"></i>
-            <h4 class="h4 mb-2">Graphic Design</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit explicabo inventore.</p>
-            <ul class="list-unstyled list-line">
-              <li>Lorem ipsum dolor sit amet consectetur adipisicing</li>
-              <li>Non pariatur nisi</li>
-              <li>Magnam soluta quod</li>
-              <li>Lorem ipsum dolor</li>
-              <li>Cumque quae aliquam</li>
-            </ul>
-          </div>
-          <div class="col-12 col-sm-6 col-md-6 col-lg-3">
-            <i class="bi bi-calendar4-week"></i>
-            <h4 class="h4 mb-2">SEO</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit explicabo inventore.</p>
-            <ul class="list-unstyled list-line">
-              <li>Lorem ipsum dolor sit amet consectetur adipisicing</li>
-              <li>Non pariatur nisi</li>
-              <li>Magnam soluta quod</li>
-              <li>Lorem ipsum dolor</li>
-              <li>Cumque quae aliquam</li>
-            </ul>
+        <div class="row justify-content-center">
+          <div class="col-lg-6 text-center" data-aos="fade-up" data-aos-delay="15">
+            <h2><span>Contact Me</span></h2>
+            <p>Feel free to reach me through email at Lexy.Nissen@outlook.com or through my <a href="https://www.linkedin.com/in/nissen-lexy/">LinkedIn</a> page</p>
+            <!-- <a href="contact.html" class="btn-get-started">Available for Hire<br></a> -->
           </div>
         </div>
       </div>
-    </section> -->
-    <!-- End Services Section -->
 
-    <!-- ======= Testimonials Section ======= -->
-    <!-- <section class="section pt-0">
-      <div class="container">
+    </section><!-- /Contact Section -->
 
-        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
-          <div class="swiper-wrapper">
+  </main>
 
-            <div class="swiper-slide">
-              <div class="testimonial-wrap">
-                <div class="testimonial">
-                  <img src="assets/img/person_1.jpg" alt="Image" class="img-fluid">
-                  <blockquote>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam necessitatibus incidunt ut officiis
-                      explicabo inventore.</p>
-                  </blockquote>
-                  <p>&mdash; Jean Hicks</p>
-                </div>
-              </div>
-            </div> -->
-            <!-- End testimonial item -->
+  <footer id="footer" class="footer">
 
-    <!-- <div class="swiper-slide">
-              <div class="testimonial-wrap">
-                <div class="testimonial">
-                  <img src="assets/img/person_2.jpg" alt="Image" class="img-fluid">
-                  <blockquote>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam necessitatibus incidunt ut officiis
-                      explicabo inventore.</p>
-                  </blockquote>
-                  <p>&mdash; Chris Stanworth</p>
-                </div>
-              </div>
-            </div> -->
-            <!-- End testimonial item -->
-
-          </div>
-          <div class="swiper-pagination"></div>
-        </div>
-
-      </div>
-    </section><!-- End Testimonials Section -->
-
-  </main><!-- End #main -->
-
-  <!-- ======= Footer ======= -->
-  <footer class="footer" role="contentinfo">
     <div class="container">
-      <div class="row">
-        <div class="col-sm-6">
-          <p class="mb-1">&copy; Copyright MyPortfolio. All Rights Reserved</p>
-          <div class="credits">
-            <!--
-            All the links in the footer should remain intact.
-            You can delete the links only if you purchased the pro version.
-            Licensing information: https://bootstrapmade.com/license/
-            Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=MyPortfolio
-          -->
-            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-          </div>
-        </div>
-        <div class="col-sm-6 social text-md-end">
-          <!-- <a href="#"><span class="bi bi-twitter"></span></a>
-          <a href="#"><span class="bi bi-facebook"></span></a>
-          <a href="#"><span class="bi bi-instagram"></span></a> -->
-          <a href="https://www.linkedin.com/in/lexy-n-2963931aa/"><span class="bi bi-linkedin"></span></a>
-        </div>
+
+      <!-- <div class="social-links d-flex justify-content-center">
+        <a href=""><i class="bi bi-twitter-x"></i></a>
+        <a href=""><i class="bi bi-facebook"></i></a>
+        <a href=""><i class="bi bi-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/nissen-lexy/"><i class="bi bi-linkedin"></i></a>
+      </div> -->
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+        Website designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> | <a href="https://bootstrapmade.com/tools/">DevTools</a>
+      </div>
+      <div class="copyright text-center ">
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">PhotoFolio</strong> <span>All Rights Reserved</span></p>
       </div>
     </div>
+
   </footer>
 
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader">
+    <div class="line"></div>
+  </div>
 
   <!-- Vendor JS Files -->
-  <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
 
-  <!-- Template Main JS File -->
+  <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
 
 </body>
